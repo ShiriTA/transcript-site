@@ -1,0 +1,84 @@
+.our-offers {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    transition: background-color .3s ease-out;
+
+    &__title {
+
+        font-size: 2.4rem;
+        color: rgb(32, 143, 187);
+        font-weight: 400;
+        margin: 0;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        
+        
+        
+
+        @mixin atMedium {
+            font-weight: 400;
+            margin: 0;
+            font-size: 4.8rem;
+            padding-right: 20px;
+        }
+
+    }
+
+    &__logo-both {
+        top: 140px;
+    }
+
+    &__logo-computer {
+        position: absolute;
+        right: 400px;
+        width: 400px;
+        height: 500px;
+        
+        
+    }
+
+    &__logo-transcript {
+        position: absolute;
+        left: 340px;
+        width: 200px;
+        height: 500px;
+       
+    }
+
+    &__text-content {
+        
+
+    }
+
+    &__title-both {
+        top: 380px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: rgb(32, 143, 187);
+    }
+
+    &__title-transcript {
+        position: absolute;
+        left: 290px;
+
+    }
+
+    &__title-computer {
+        position: absolute;
+        left: 710px;
+    }
+
+    &__description-both {
+        padding-top: 330px;
+        display: flex;
+    }
+
+    &__description-transcript {
+        padding-left: 200px;
+    }
+
+    &__description-computer {
+        padding-left: 400px;
+    }
+}
