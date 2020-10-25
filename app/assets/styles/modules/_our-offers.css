@@ -1,6 +1,7 @@
 .our-offers {
+
     padding: 10px 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 2;
     transition: background-color .3s ease-out;
@@ -71,14 +72,15 @@
 
     &__description-both {
         padding-top: 330px;
+        max-width: 800px;
         display: flex;
     }
 
     &__description-transcript {
-        padding-left: 200px;
+        padding-left: 230px;
     }
 
     &__description-computer {
-        padding-left: 400px;
+        padding-left: 200px;
     }
 }
