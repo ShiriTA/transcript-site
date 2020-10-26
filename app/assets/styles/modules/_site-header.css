@@ -17,6 +17,10 @@
             
             background-color: rgba(23, 51, 72, .85);
         }
+
+        &--gray {
+            background-color: rgba(158, 162, 165, .85);
+        }
     }
 
     &__btn-container {
